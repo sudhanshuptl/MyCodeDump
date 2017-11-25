@@ -3,7 +3,7 @@
 // size of string using recursion
 
 int stringSize(char arr[],int top){
-	if(arr[top+1]!='\0'){
+	if(arr[top]!='\0'){
 		return 1+stringSize(arr,top+1);
 	}
 	else{
