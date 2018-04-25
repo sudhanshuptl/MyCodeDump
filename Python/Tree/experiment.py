@@ -18,11 +18,6 @@ class BinarySearchTree(object):
     def get_root(self):
         return self.root
 
-    def insert(self, key):
-        if self.root is None:
-            self.root = Node(key)
-        else:
-            self.utility_insert(self.root, key)
 
     def print(self, type='INORDER'):
         if type == 'INORDER':
@@ -30,14 +25,17 @@ class BinarySearchTree(object):
             self.inorder(self.root)
 
     def utility_insert(self, this_node, key):
+        if this_node is None:
+            return Node(key)
+
         if this_node.key > key:
             if this_node.left is None:
-                this_node.left = Node(key)
+                this_node.left = self.utility_insert(this_node.left, key)
             else:
                 self.utility_insert(this_node.left, key)
         else:
             if this_node.right is None:
-                this_node.right = Node(key)
+                this_node.right = self.utility_insert(this_node.right, key)
             else:
                 self.utility_insert(this_node.right, key)
 
@@ -51,8 +49,8 @@ class BinarySearchTree(object):
 if __name__=='__main__':
     print('Binary Search TREE')
     bst = BinarySearchTree()
-    bst.insert(5)
-    bst.insert(7)
-    bst.insert(3)
+    bst.utility_insert(bst.root, 5)
+    bst.utility_insert(bst.root, 7)
+    bst.utility_insert(bst.root, 4)
     bst.print()
 
