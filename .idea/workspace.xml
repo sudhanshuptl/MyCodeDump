@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Python/opps/Inheritence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/opps/inheritance2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/opps/magicDunderMethods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/opps/propertyDecorater.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/opps/Basic_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/opps/Inheritence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/opps/classMethod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/opps/classVariable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/opps/inheritance2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/opps/magicDunderMethods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/opps/propertyDecorater.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/opps/staticMethod.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,47 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Basic_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py">
+      <file leaf-file-name="BinarySearchTree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classVariable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classMethod.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magicDunderMethods.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/opps/magicDunderMethods.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="31" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="propertyDecorater.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/opps/propertyDecorater.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="128">
+              <caret line="205" column="31" lean-forward="true" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -95,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" />
         <option value="$PROJECT_DIR$/Python/Tree/experiment.py" />
         <option value="$PROJECT_DIR$/Python/opps/Basic_1.py" />
         <option value="$PROJECT_DIR$/Python/opps/classVariable.py" />
@@ -105,6 +73,7 @@
         <option value="$PROJECT_DIR$/Python/opps/inheritance2.py" />
         <option value="$PROJECT_DIR$/Python/opps/magicDunderMethods.py" />
         <option value="$PROJECT_DIR$/Python/opps/propertyDecorater.py" />
+        <option value="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" />
       </list>
     </option>
   </component>
@@ -114,7 +83,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="428" />
     <option name="y" value="33" />
     <option name="width" value="1011" />
@@ -144,7 +113,7 @@
               <item name="MyCodeDump" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCodeDump" type="462c0819:PsiDirectoryNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="opps" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +146,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.propertyDecorater">
+  <component name="RunManager" selected="Python.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCodeDump" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Inheritence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,39 +256,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="staticMethod" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyCodeDump" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/opps" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/opps/staticMethod.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.OneWayLinkList" />
-      <item itemvalue="Python.staticMethod" />
       <item itemvalue="Python.Inheritence" />
       <item itemvalue="Python.inheritance2" />
       <item itemvalue="Python.magicDunderMethods" />
       <item itemvalue="Python.propertyDecorater" />
+      <item itemvalue="Python.BinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BinarySearchTree" />
         <item itemvalue="Python.propertyDecorater" />
         <item itemvalue="Python.magicDunderMethods" />
         <item itemvalue="Python.inheritance2" />
         <item itemvalue="Python.Inheritence" />
-        <item itemvalue="Python.staticMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -319,29 +288,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12811127" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.53554505" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.24170616" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328594" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.0052950075" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.0052950075" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,34 +321,39 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py">
+    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="2535">
+          <caret line="169" column="32" selection-start-line="169" selection-start-column="32" selection-end-line="169" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py">
+    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" lean-forward="true" selection-end-line="41" selection-end-column="72" />
+        <state relative-caret-position="2130">
+          <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/staticMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/magicDunderMethods.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/propertyDecorater.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/magicDunderMethods.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/propertyDecorater.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/magicDunderMethods.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/propertyDecorater.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/staticMethod.py" />
     <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -407,66 +382,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/staticMethod.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/Inheritence.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/inheritance2.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/magicDunderMethods.py" />
+    <entry file="file://$PROJECT_DIR$/Python/opps/propertyDecorater.py" />
     <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/staticMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/Inheritence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/inheritance2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="71" column="80" lean-forward="true" selection-start-line="71" selection-start-column="80" selection-end-line="71" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/magicDunderMethods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/propertyDecorater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="128">
+          <caret line="205" column="31" lean-forward="true" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
         </state>
       </provider>
     </entry>
