@@ -184,8 +184,8 @@ class BinarySearchTree(object):
             temp = self.find_inorder_succesor(this_node.right)
 
             this_node.key = temp.key
-            this_node.right = self.delete_node(this_node.right, temp.key)
-        return this_node
+            this_node.right = self.delete_node(this_node, temp.key)
+            return this_node
 
 
 if __name__ == '__main__':

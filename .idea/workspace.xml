@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/opps/Basic_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/opps/Inheritence.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/opps/classMethod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/opps/classVariable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/opps/inheritance2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/opps/magicDunderMethods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/opps/propertyDecorater.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/opps/staticMethod.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,11 +33,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinarySearchTree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="205" column="31" lean-forward="true" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
+            <state relative-caret-position="2760">
+              <caret line="184" selection-start-line="184" selection-end-line="184" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompleteBinaryTree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-673">
+              <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +79,7 @@
         <option value="$PROJECT_DIR$/Python/opps/magicDunderMethods.py" />
         <option value="$PROJECT_DIR$/Python/opps/propertyDecorater.py" />
         <option value="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" />
+        <option value="$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py" />
       </list>
     </option>
   </component>
@@ -83,11 +89,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="428" />
-    <option name="y" value="33" />
-    <option name="width" value="1011" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="88" />
+    <option name="width" value="1001" />
+    <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -97,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BinarySearchTree">
+  <component name="RunManager" selected="Python.CompleteBinaryTree">
     <configuration name="BinarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +170,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Inheritence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CompleteBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,11 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/opps" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/opps/Inheritence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,19 +263,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.OneWayLinkList" />
-      <item itemvalue="Python.Inheritence" />
       <item itemvalue="Python.inheritance2" />
       <item itemvalue="Python.magicDunderMethods" />
       <item itemvalue="Python.propertyDecorater" />
       <item itemvalue="Python.BinarySearchTree" />
+      <item itemvalue="Python.CompleteBinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CompleteBinaryTree" />
         <item itemvalue="Python.BinarySearchTree" />
         <item itemvalue="Python.propertyDecorater" />
         <item itemvalue="Python.magicDunderMethods" />
         <item itemvalue="Python.inheritance2" />
-        <item itemvalue="Python.Inheritence" />
       </list>
     </recent_temporary>
   </component>
@@ -288,19 +293,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
+    <frame x="0" y="88" width="1001" height="555" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12811127" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.08791209" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23820224" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.24170616" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.328594" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="0" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -320,7 +325,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py</url>
+          <line>118</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="184" lean-forward="true" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="205" column="31" lean-forward="true" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2535">
@@ -392,8 +439,18 @@
     <entry file="file://$PROJECT_DIR$/Python/opps/propertyDecorater.py" />
     <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="205" column="31" lean-forward="true" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
+        <state relative-caret-position="2760">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-673">
+          <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
