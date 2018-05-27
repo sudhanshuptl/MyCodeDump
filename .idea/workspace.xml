@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Tree/BinarySearchTree.py" afterDir="false" />
-    </list>
+    <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +41,8 @@
       <file leaf-file-name="CompleteBinaryTree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-673">
-              <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
+            <state relative-caret-position="-169">
+              <caret line="135" column="34" lean-forward="true" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -89,7 +85,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="88" />
     <option name="width" value="1001" />
     <option name="height" value="555" />
@@ -293,13 +289,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="88" width="1001" height="555" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.08791209" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.06442167" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23820224" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.16745655" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="2" side_tool="true" />
@@ -446,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Tree/CompleteBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-673">
-          <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
+        <state relative-caret-position="-169">
+          <caret line="135" column="34" lean-forward="true" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
