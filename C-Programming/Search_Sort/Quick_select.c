@@ -6,15 +6,15 @@ FInd nth smallest or kth largest = size-kth smallest
 #define SIZE 10
 
 void print(int arr[]);
-void quick_sort(int arr[],int base,int end);
+int quick_sort(int arr[],int base,int end,int kth);
 int partition(int arr[], int base,int end);
 void swap(int *a, int *b);
 
 int main(){
     int arr[SIZE]={66,63,12,88,33,73,99,7,3,44};
-
+    int kth = 3; //kth smallest
     print(arr);
-    quick_sort(arr, 0, SIZE-1);
+    printf("\n%drd smallest %d\n\n",kth, quick_sort(arr, 0, SIZE-1, kth-1));
     print(arr);
     return 0;
 }
@@ -44,13 +44,18 @@ int partition(int arr[], int base,int end){
     return pivot;
 }
 
-void quick_sort(int arr[],int base,int end){
+int quick_sort(int arr[],int base,int end,int kth){
     int pivot;
-    if(base >= end)
-      return;
+
     pivot = partition(arr, base, end);
-    quick_sort(arr,base,pivot-1);
-    quick_sort(arr,pivot+1,end);
+
+    if(pivot == kth)
+      return arr[pivot];
+
+    if(pivot > kth)
+      return quick_sort(arr,base,pivot-1,kth);
+    else
+      return quick_sort(arr,pivot+1,end,kth);
 }
 
 void print(int arr[]){
