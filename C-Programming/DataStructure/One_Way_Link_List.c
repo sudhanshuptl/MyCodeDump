@@ -18,6 +18,7 @@ void insertAtEnd(Node **head, int data);
 void insertAtPosition(Node **head,int data,int position);
 void deleteFromBeginning(Node **head);
 void deleteFromEnd(Node **head);
+int find_mid_node(Node *head);
 
 int main(){
     Node *head = NULL;
@@ -36,6 +37,8 @@ int main(){
     insertAtPosition(&head,5,5);
     print(head);
 
+    printf("\n__Mid data__: : %d\n\n",find_mid_node(head)); // we just have to print mid not modify head
+
     deleteFromBeginning(&head);
     deleteFromBeginning(&head);
     print(head);
@@ -43,6 +46,8 @@ int main(){
     deleteFromEnd(&head);
     deleteFromEnd(&head);
     print(head);
+
+
 
     return 0;
 }
@@ -180,4 +185,16 @@ void print(Node *head){
     ptr = ptr->next;
     }
     printf("->NULL\n");
+}
+
+int find_mid_node(Node *head){
+    Node *ptr1 = head;
+    Node *ptr2 = head;
+    //move ptr1 with speed 1 and ptr2 with speed 2
+    //then when ptr2 read to the end ptr1 will be at mid
+    while(ptr2->next != NULL && ptr2->next->next !=NULL){
+      ptr2 = ptr2->next->next;
+      ptr1 = ptr1->next;
+    }
+  return ptr1->data;
 }
