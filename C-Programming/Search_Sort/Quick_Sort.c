@@ -1,5 +1,4 @@
-/* Quick Select
-FInd nth smallest or kth largest = size-kth smallest
+/* Quick Sort
 */
 #include<stdio.h>
 
