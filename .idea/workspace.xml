@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Python/Multi_thread_processing/ProcessPollExecuter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Multi_thread_processing/ThreadPoolExcutor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-Programming/Search_Sort/Quick_Sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/C-Programming/Search_Sort/Quick_Sort.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +34,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwoStackinOneArray.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/Algorithm/TwoStackinOneArray.py">
+      <file leaf-file-name="Map_Reduce.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Multi_thread_processing/Map_Reduce.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            <state relative-caret-position="288">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolExcutor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/Multi_thread_processing/ThreadPoolExcutor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#58#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessPollExecuter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/Multi_thread_processing/ProcessPollExecuter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="e#46#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +108,11 @@
         <option value="$PROJECT_DIR$/C-Programming/Search_Sort/MergeSort.c" />
         <option value="$PROJECT_DIR$/Python/Algorithm/TwoStackinOneArray.py" />
         <option value="$PROJECT_DIR$/Python/Specials/genric_arguments_args.py" />
+        <option value="$PROJECT_DIR$/Python/Multi_thread_processing/Readme.md" />
+        <option value="$PROJECT_DIR$/Python/Multi_thread_processing/Map_Reduce.py" />
+        <option value="$PROJECT_DIR$/Python/Multi_thread_processing/ThreadPoolExcuter.py" />
+        <option value="$PROJECT_DIR$/Python/Multi_thread_processing/ThreadPoolExcutor.py" />
+        <option value="$PROJECT_DIR$/Python/Multi_thread_processing/ProcessPollExecuter.py" />
       </list>
     </option>
   </component>
@@ -87,10 +122,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="25" />
-    <option name="width" value="869" />
-    <option name="height" value="555" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="228" />
+    <option name="y" value="38" />
+    <option name="width" value="969" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -116,6 +152,12 @@
               <item name="MyCodeDump" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCodeDump" type="462c0819:PsiDirectoryNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Multi_thread_processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCodeDump" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCodeDump" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Specials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -127,7 +169,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataScience" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -149,8 +191,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.genric_arguments_args">
-    <configuration name="BubbleSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ProcessPollExecuter">
+    <configuration name="Map_Reduce" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/C-Programming/Search_Sort" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Multi_thread_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C-Programming/Search_Sort/BubbleSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Multi_thread_processing/Map_Reduce.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,6 +226,42 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/LinkList/OneWayLinkList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ProcessPollExecuter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCodeDump" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Multi_thread_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Multi_thread_processing/ProcessPollExecuter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ThreadPoolExcuter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCodeDump" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Multi_thread_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Multi_thread_processing/ThreadPoolExcutor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -223,57 +301,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyCodeDump" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/C-Programming/Search_Sort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C-Programming/Search_Sort/insertion_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyCodeDump" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/C-Programming/Search_Sort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/C-Programming/Search_Sort/selection_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.OneWayLinkList" />
-      <item itemvalue="Python.BubbleSort" />
-      <item itemvalue="Python.insertion_sort" />
-      <item itemvalue="Python.selection_sort" />
       <item itemvalue="Python.TwoStackinOneArray" />
       <item itemvalue="Python.genric_arguments_args" />
+      <item itemvalue="Python.Map_Reduce" />
+      <item itemvalue="Python.ThreadPoolExcuter" />
+      <item itemvalue="Python.ProcessPollExecuter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ProcessPollExecuter" />
+        <item itemvalue="Python.ThreadPoolExcuter" />
+        <item itemvalue="Python.Map_Reduce" />
         <item itemvalue="Python.genric_arguments_args" />
         <item itemvalue="Python.TwoStackinOneArray" />
-        <item itemvalue="Python.selection_sort" />
-        <item itemvalue="Python.insertion_sort" />
-        <item itemvalue="Python.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -291,19 +333,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20937042" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21961933" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.21484992" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.21484992" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.328594" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="0" weight="0.39968404" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -335,34 +377,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3075">
-          <caret line="205" column="31" lean-forward="true" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="169" column="32" selection-start-line="169" selection-start-column="32" selection-end-line="169" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Tree/BinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py" />
     <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py" />
     <entry file="file://$PROJECT_DIR$/Python/opps/classMethod.py" />
@@ -501,17 +515,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Specials/genric_arguments_args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Specials/genric_arguments_args.py" />
     <entry file="file://$PROJECT_DIR$/Python/Algorithm/TwoStackinOneArray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
           <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Multi_thread_processing/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="386">
+            <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Multi_thread_processing/Map_Reduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Multi_thread_processing/ThreadPoolExcutor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#58#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Multi_thread_processing/ProcessPollExecuter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#46#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
