@@ -1,0 +1,21 @@
+<!-- modify value of some block on html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let count = 0
+        function counter(){
+        	//document.querySelector(#id).innerHTML
+            count++;
+            document.querySelector('#Counter').innerHTML = count;
+        }
+     </script>
+</head>
+<body>
+
+	<h1 id="Counter"> 0 </h1>
+	<button onclick="counter()">goodbye</button>
+</body>
+</html>

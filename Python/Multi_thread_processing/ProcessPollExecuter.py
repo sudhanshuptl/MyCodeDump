@@ -14,5 +14,5 @@ texts = [b'A quick brown fox jump over the lazy dog'
 
 if __name__=='__main__':
     with ProcessPoolExecutor() as executor:
-        for text,hash_t in zip(texts,map(generate_hash, texts)):
+        for text, hash_t in zip(texts, map(generate_hash, texts)):
             print('%s hash is %s'%(text, hash_t))
