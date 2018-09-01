@@ -1,0 +1,21 @@
+<!-- modify value of some block on html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function hello(){
+        	//document.querySelector(tag).innerHTML
+            document.querySelector('h1').innerHTML = "Good Bye";
+        	//document.querySelector(#id).innerHTML # select by id use #id_name
+        	////document.querySelector(.class).innerHTML #slect by class name use . before it
+        }
+     </script>
+</head>
+<body>
+
+	<h1> Welcome </h1>
+	<button onclick="hello()">goodbye</button>
+</body>
+</html>
