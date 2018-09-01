@@ -3,7 +3,7 @@
 #include<stdlib.h>
 
 /*Global Variabls*/
-char *GlobalPointer=NULL;
+//char *GlobalPointer=NULL; // we can use static variable instead of this
 
 /* Prototypes */
 char *ParseLine(char *arr, char *delimiter);
@@ -34,6 +34,7 @@ int main(){
 
 
 char *ParseLine(char *arr, char *delimiter){
+  static char *GlobalPointer=NULL;
   int position;
   char *blockString;
   char *ptr;
