@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javascript/Events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javascript/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/.idea/dictionaries/sudhanshupatel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Specials/Custom Atributes.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Specials/EmulatingSwitch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Specials/Logger/LoggingModules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Specials/Logger/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Algorithm/MergeSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Algorithm/QuickSelect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Flask/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Flask/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Multi_thread_processing/ProcessPollExecuter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Multi_thread_processing/ProcessPollExecuter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +34,16 @@
     <session id="1574039399">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -58,7 +51,7 @@
           <entry key="gitignore" value="14" />
           <entry key="html" value="46" />
           <entry key="js" value="34" />
-          <entry key="py" value="1644" />
+          <entry key="py" value="3663" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -66,7 +59,7 @@
           <entry key="HTML" value="46" />
           <entry key="JavaScript" value="34" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="1644" />
+          <entry key="Python" value="3663" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,7 +70,7 @@
           <entry key="ipynb" value="1" />
           <entry key="js" value="1" />
           <entry key="log" value="1" />
-          <entry key="py" value="5" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -86,7 +79,7 @@
           <entry key="IPNB" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -94,65 +87,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Javascript/Events.html">
+        <entry file="file://$PROJECT_DIR$/Python/Algorithm/QuickSelect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/Specials/EmulatingSwitch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+            <state relative-caret-position="820">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <marker date="1535362950096" expanded="true" signature="182:183" ph="..." />
-                <marker date="1535362950096" expanded="true" signature="402:536" ph="..." />
+                <marker date="1536039559564" expanded="true" signature="19:24" ph="..." />
+                <marker date="1536039559564" expanded="true" signature="1136:1145" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/Specials/Logger/LoggingModules.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/Specials/Logger/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-              <folding>
-                <marker date="1535465633225" expanded="true" signature="54:59" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/Specials/Custom Atributes.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/Python/Algorithm/MergeSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="442">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <marker date="1536053081382" expanded="true" signature="53:58" ph="..." />
+                <marker date="1536053081382" expanded="true" signature="248:253" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,6 +166,8 @@
         <option value="$PROJECT_DIR$/Python/Specials/Logger/main.py" />
         <option value="$PROJECT_DIR$/Python/Specials/Custom Atributes.ipynb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Python/Algorithm/QuickSelect.py" />
+        <option value="$PROJECT_DIR$/Python/Algorithm/MergeSort.py" />
       </list>
     </option>
   </component>
@@ -234,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,16 +198,28 @@
               <item name="MyCodeDump" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCodeDump" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyCodeDump" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCodeDump" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCodeDump" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCodeDump" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Git/prod_27Aug" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -275,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.MergeSort">
     <configuration name="API_version" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,6 +286,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCodeDump" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithm/MergeSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="OneWayLinkList" type="PythonConfigurationType" factoryName="Python">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,7 +329,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ProcessPollExecuter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QuickSelect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,32 +337,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Multi_thread_processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Multi_thread_processing/ProcessPollExecuter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ThreadPoolExcuter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyCodeDump" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Multi_thread_processing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Multi_thread_processing/ThreadPoolExcutor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithm/QuickSelect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,19 +373,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.OneWayLinkList" />
-      <item itemvalue="Python.ThreadPoolExcuter" />
-      <item itemvalue="Python.ProcessPollExecuter" />
       <item itemvalue="Python.API_version" />
       <item itemvalue="Python.EmulatingSwitch" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.QuickSelect" />
+      <item itemvalue="Python.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MergeSort" />
+        <item itemvalue="Python.QuickSelect" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.EmulatingSwitch" />
         <item itemvalue="Python.API_version" />
-        <item itemvalue="Python.ProcessPollExecuter" />
-        <item itemvalue="Python.ThreadPoolExcuter" />
       </list>
     </recent_temporary>
   </component>
@@ -436,9 +404,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15178572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15178572" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -643,34 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Javascript/Events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Specials/EmulatingSwitch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding>
-            <marker date="1535362950096" expanded="true" signature="182:183" ph="..." />
-            <marker date="1535362950096" expanded="true" signature="402:536" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Specials/Logger/LoggingModules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python/Specials/Logger/MyLog.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="100">
@@ -679,27 +618,67 @@
       </provider>
       <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Specials/Logger/main.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <marker date="1535465633225" expanded="true" signature="54:59" ph="..." />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Specials/Custom Atributes.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Python/Specials/Logger/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Specials/Logger/LoggingModules.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Specials/EmulatingSwitch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript/Events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Algorithm/QuickSelect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <marker date="1536039559564" expanded="true" signature="19:24" ph="..." />
+            <marker date="1536039559564" expanded="true" signature="1136:1145" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Algorithm/MergeSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <marker date="1536053081382" expanded="true" signature="53:58" ph="..." />
+            <marker date="1536053081382" expanded="true" signature="248:253" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
