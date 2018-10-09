@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Python/Algorithm/MergeSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Algorithm/QuickSelect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Algorithm/Binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Algorithm/rotated_sorted_array_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/File_Handling/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/File_Handling/understanding_seek.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Flask/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Flask/src/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Flask/src/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Flask/.idea/Flask.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Flask/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Flask/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Flask/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Flask/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Flask/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Flask/src/flask_sqlAlchamy_app.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,79 +47,82 @@
     <session id="1574039399">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Python Console" value="19" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="46" />
+          <entry key="html" value="424" />
           <entry key="js" value="34" />
-          <entry key="py" value="3663" />
+          <entry key="py" value="8565" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="46" />
+          <entry key="HTML" value="424" />
           <entry key="JavaScript" value="34" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="3663" />
+          <entry key="Python" value="8584" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="1" />
-          <entry key="ipynb" value="1" />
+          <entry key="html" value="3" />
+          <entry key="ipynb" value="2" />
           <entry key="js" value="1" />
           <entry key="log" value="1" />
-          <entry key="py" value="7" />
+          <entry key="py" value="15" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="IPNB" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="IPNB" value="2" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="7" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/Algorithm/QuickSelect.py">
+        <entry file="file://$PROJECT_DIR$/Python/Algorithm/Binary_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="85">
+              <caret line="18" selection-start-line="18" selection-end-line="27" selection-end-column="13" />
               <folding>
-                <marker date="1536039559564" expanded="true" signature="19:24" ph="..." />
-                <marker date="1536039559564" expanded="true" signature="1136:1145" ph="..." />
+                <marker date="1539061315896" expanded="true" signature="114:119" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/Algorithm/MergeSort.py">
+        <entry file="file://$PROJECT_DIR$/Python/Algorithm/rotated_sorted_array_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="900">
+              <caret line="57" column="87" lean-forward="true" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
               <folding>
-                <marker date="1536053081382" expanded="true" signature="53:58" ph="..." />
-                <marker date="1536053081382" expanded="true" signature="248:253" ph="..." />
+                <marker date="1539070016006" expanded="true" signature="328:333" ph="..." />
+                <marker date="1539070016006" expanded="true" signature="1255:1556" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,6 +133,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
@@ -168,6 +185,17 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Python/Algorithm/QuickSelect.py" />
         <option value="$PROJECT_DIR$/Python/Algorithm/MergeSort.py" />
+        <option value="$PROJECT_DIR$/Python/LinkList/OneWayLinkList.py" />
+        <option value="$PROJECT_DIR$/Python/Algorithm/DutchNationalFlagProblem.py" />
+        <option value="$PROJECT_DIR$/Python/Multi_thread_processing/Multiprocess_subclass.py" />
+        <option value="$PROJECT_DIR$/Python/Algorithm/countPossibleDecoding.py" />
+        <option value="$PROJECT_DIR$/Python/File_Handling/data.txt" />
+        <option value="$PROJECT_DIR$/Python/File_Handling/understanding_seek.ipynb" />
+        <option value="$PROJECT_DIR$/Python/Flask/src/templates/layout.html" />
+        <option value="$PROJECT_DIR$/Python/Flask/src/templates/index.html" />
+        <option value="$PROJECT_DIR$/Python/Flask/src/main.py" />
+        <option value="$PROJECT_DIR$/Python/Algorithm/Binary_search.py" />
+        <option value="$PROJECT_DIR$/Python/Algorithm/rotated_sorted_array_search.py" />
       </list>
     </option>
   </component>
@@ -178,8 +206,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="228" />
-    <option name="y" value="38" />
+    <option name="x" value="454" />
     <option name="width" value="969" />
     <option name="height" value="730" />
   </component>
@@ -209,6 +236,19 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyCodeDump" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCodeDump" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyCodeDump" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyCodeDump" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Flask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -219,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Git/prod_27Aug" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -243,50 +283,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MergeSort">
-    <configuration name="API_version" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyCodeDump" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/API_version.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="EmulatingSwitch" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyCodeDump" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Specials" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Specials/EmulatingSwitch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.rotated_sorted_array_search">
+    <configuration name="Binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,7 +296,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithm/MergeSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithm/Binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DutchNationalFlagProblem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCodeDump" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithm/DutchNationalFlagProblem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Multiprocess_subclass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyCodeDump" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Multi_thread_processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Multi_thread_processing/Multiprocess_subclass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,7 +369,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QuickSelect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="countPossibleDecoding" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,7 +381,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithm/QuickSelect.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithm/countPossibleDecoding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,7 +390,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rotated_sorted_array_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyCodeDump" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,11 +398,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Specials/Logger" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Specials/Logger/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Algorithm/rotated_sorted_array_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,19 +413,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.OneWayLinkList" />
-      <item itemvalue="Python.API_version" />
-      <item itemvalue="Python.EmulatingSwitch" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.QuickSelect" />
-      <item itemvalue="Python.MergeSort" />
+      <item itemvalue="Python.DutchNationalFlagProblem" />
+      <item itemvalue="Python.Multiprocess_subclass" />
+      <item itemvalue="Python.countPossibleDecoding" />
+      <item itemvalue="Python.Binary_search" />
+      <item itemvalue="Python.rotated_sorted_array_search" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MergeSort" />
-        <item itemvalue="Python.QuickSelect" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.EmulatingSwitch" />
-        <item itemvalue="Python.API_version" />
+        <item itemvalue="Python.rotated_sorted_array_search" />
+        <item itemvalue="Python.Binary_search" />
+        <item itemvalue="Python.countPossibleDecoding" />
+        <item itemvalue="Python.Multiprocess_subclass" />
+        <item itemvalue="Python.DutchNationalFlagProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +445,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15178572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21949404" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -413,14 +453,14 @@
       <window_info id="Job Explorer" order="5" />
       <window_info anchor="bottom" id="Debug" order="0" weight="0.39968404" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.24590164" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.22295082" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.328594" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32786885" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -432,6 +472,34 @@
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.0052950075" />
       <window_info anchor="right" id="SciView" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15178572" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Project Explorer" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="Job Explorer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="0" weight="0.39968404" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.24590164" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Console" order="13" />
+      <window_info anchor="bottom" id="DB Execution Console" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.0052950075" />
+      <window_info anchor="right" id="SciView" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -450,22 +518,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python/LinkList/OneWayLinkList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/Tree/experiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/opps/Basic_1.py" />
-    <entry file="file://$PROJECT_DIR$/Python/opps/staticMethod.py" />
     <entry file="file://$PROJECT_DIR$/Python/opps/classVariable.py" />
     <entry file="file://$PROJECT_DIR$/Python/opps/Inheritence.py" />
     <entry file="file://$PROJECT_DIR$/Python/opps/inheritance2.py" />
@@ -664,20 +716,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="820">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <marker date="1536039559564" expanded="true" signature="19:24" ph="..." />
-            <marker date="1536039559564" expanded="true" signature="1136:1145" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Algorithm/MergeSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="620">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/LinkList/OneWayLinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Algorithm/DutchNationalFlagProblem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Multi_thread_processing/Multiprocess_subclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Algorithm/countPossibleDecoding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/File_Handling/understanding_seek.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Flask/src/flask_sqlAlchamy_app.py" />
+    <entry file="file://$PROJECT_DIR$/Python/File_Handling/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Flask/src/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Flask/src/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Flask/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Algorithm/Binary_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" selection-start-line="18" selection-end-line="27" selection-end-column="13" />
           <folding>
-            <marker date="1536053081382" expanded="true" signature="53:58" ph="..." />
-            <marker date="1536053081382" expanded="true" signature="248:253" ph="..." />
+            <marker date="1539061315896" expanded="true" signature="114:119" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/Algorithm/rotated_sorted_array_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="57" column="87" lean-forward="true" selection-start-line="57" selection-start-column="87" selection-end-line="57" selection-end-column="87" />
+          <folding>
+            <marker date="1539070016006" expanded="true" signature="328:333" ph="..." />
+            <marker date="1539070016006" expanded="true" signature="1255:1556" ph="..." />
           </folding>
         </state>
       </provider>
