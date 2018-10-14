@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+FLT home
+{% endblock %}
+
+{% block body %}
+<form method="post" action="{{ url_for('get_details')}}"  id="usrform">
+    <textarea rows="10" cols="10" name="case_id">Enter Case ID seperated by enter (new Line)</textarea>
+    <br/>
+  <input type="submit">
+</form>
+{% endblock %}
+

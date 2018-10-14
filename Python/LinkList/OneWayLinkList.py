@@ -16,7 +16,7 @@ class LinkList(object):
         if ptr is None:
             print('Link List is Empty !!!')
             return
-        print('head',end='')
+        print('head', end='')
         while ptr is not None:
             print(' ->', ptr.key, end='')
             ptr = ptr.next
