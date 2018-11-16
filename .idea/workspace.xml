@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Python/Asynchronous_Python/Asynchronous_Concepts/await.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Asynchronous_Python/Asynchronous_Concepts/futures_in_python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Asynchronous_Python/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/Asynchronous_Python/aiohttp/Async_rest_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/AsyncIO/AsynicID_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Asynchronous_Python/AsyncIO/AsynicID_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/AsyncIO/asynic_Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Asynchronous_Python/AsyncIO/asynic_Ex1.py" afterDir="false" />
-    </list>
+    <list default="true" id="63185939-8074-45d2-9ee9-fec13e058ac5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +30,7 @@
     <session id="1574039399">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
@@ -48,9 +38,10 @@
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -104,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/Asynchronous_Python/Asynchronous_Concepts/futures_in_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="49" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="160">
+              <caret line="8" column="49" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="49" />
               <folding>
                 <marker date="1541423562810" expanded="true" signature="165:170" ph="..." />
                 <marker date="1541423562810" expanded="true" signature="534:539" ph="..." />
@@ -117,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python/Asynchronous_Python/Asynchronous_Concepts/await.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="440">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
                 <marker date="1541424287761" expanded="true" signature="35:36" ph="..." />
                 <marker date="1541424287761" expanded="true" signature="455:460" ph="..." />
@@ -131,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/Python/Asynchronous_Python/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="326">
+              <first_editor relative-caret-position="680">
                 <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               </first_editor>
               <second_editor />
@@ -230,7 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,12 +249,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Git/Remote_FLT/flt_prod" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -460,9 +451,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-269" y="14" width="969" height="730" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20408164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20386904" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -677,12 +668,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Specials/Logger/MyLog.log">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="100">
           <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -815,10 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1540187018863" expanded="true" signature="365:718" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Asynchronous_Python/Asynchronous_Concepts/futures_in_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="160">
+          <caret line="8" column="49" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="49" />
           <folding>
             <marker date="1541423562810" expanded="true" signature="165:170" ph="..." />
             <marker date="1541423562810" expanded="true" signature="534:539" ph="..." />
@@ -842,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/Asynchronous_Python/Asynchronous_Concepts/await.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="440">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <marker date="1541424287761" expanded="true" signature="35:36" ph="..." />
             <marker date="1541424287761" expanded="true" signature="455:460" ph="..." />
@@ -854,7 +841,7 @@
     <entry file="file://$PROJECT_DIR$/Python/Asynchronous_Python/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="326">
+          <first_editor relative-caret-position="680">
             <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           </first_editor>
           <second_editor />
