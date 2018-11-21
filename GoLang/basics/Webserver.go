@@ -9,7 +9,7 @@ func main(){
 	/* this function is called by default like init in python */
 	http.HandleFunc("/", indexHandler)
 	http.HandleFunc("/about", aboutHandler)
-	http.ListenAndServe("localhost:8000", nil)
+	http.ListenAndServe("localhost:8001", nil)
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request){
