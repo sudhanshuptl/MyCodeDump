@@ -4,3 +4,9 @@
 
   * Mongodb Database is is in Managed-Record directory
   * a program to index all program from its description automatically is also stored in Managed-Record.
+
+# Adding New Learning
+ * Python
+ * Flask
+ * Go
+ * Algorithm
