@@ -1,0 +1,41 @@
+<html>
+<body>       <script type = "text/javascript">
+                var books = new Array("Sherlock","Batman","Chacha Chaudhari")
+                for (book_id in books){
+                    document.write(books[book_id]+"<br />") 
+                }
+
+                var book = new Object()
+                book.name = "Stranger Things"
+                book.author = "Duffer Brothers"
+                book.release = "march 2019"
+
+                document.writeln("Book name :"+book.name+'<br >')
+                document.writeln("Author name :"+book.author+'<br >')
+                document.writeln('Release Date: '+ book.release+'<br >')
+            function addPrice(amount){
+                this.price = amount
+            }
+            function myBook(name, author){
+                this.name = name;
+                this.author = author
+                this.price = addPrice
+            }
+            </script>
+            <p>
+                    how to create an object with a User-Defined Function. Here this keyword is used to refer to the object that has been passed to a function.
+            </p>
+            <script type = "text/javascript">
+                var book1 = new myBook("Wings of Fire", "Dr. Kalam")
+                document.write("book1 name :"+book1.name+'<br ?>')
+                document.write("book1 author : "+book1.author+'<br />')
+            </script>
+            <p>
+                    we need to complete the definition of an object by assigning methods to i
+            </p>
+            <script type = "text/javascript">
+                book1.price(100)
+                document.write("book1 price :"+book1.price+'<br ?>')
+            </script>
+    </body>
+</html>

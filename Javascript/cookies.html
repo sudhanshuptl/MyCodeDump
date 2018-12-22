@@ -1,0 +1,63 @@
+<html>
+    <head>
+            <script type = "text/javascript">
+                   function WriteCookie() {
+                      if( document.myform.customer.value == "" ) {
+                         alert("Enter some value!");
+                         return;
+                      }
+                      document.write("setting up cookie");
+                      cookievalue = escape(document.myform.customer.value) + ";";
+                      document.cookie = "name=" + cookievalue;
+                      document.write ("Setting Cookies : " + "name=" + cookievalue );
+                   }
+                //-->
+             </script>
+             <script type="text/javascript">
+                    function ReadCookie() {
+                        var allcookies = document.cookie;
+                        document.write ("All Cookies : " + allcookies );
+                        
+                        // Get all the cookies pairs in an array
+                        cookiearray = allcookies.split(';');
+                        
+                        // Now take key value pair out of this array
+                        for(var i=0; i<cookiearray.length; i++) {
+                            name = cookiearray[i].split('=')[0];
+                            value = cookiearray[i].split('=')[1];
+                            document.write ("Key is : " + name + " and Value is : " + value);
+                        }
+                    }
+             </script>
+    </head>
+    <body>
+        <p>
+                Web Browsers and Servers use HTTP protocol to communicate and HTTP is a stateless protocol. But for a commercial website, it is required to maintain session information among different pages. For example, one user registration ends after completing many pages. But how to maintain users' session information across all the web pages.
+
+        </p>
+        <p>
+                Cookies are a plain text data record of 5 variable-length fields − <br />
+
+                Expires − The date the cookie will expire. If this is blank, the cookie will expire when the visitor quits the browser.<br />
+                
+                Domain − The domain name of your site.<br />
+                
+                Path − The path to the directory or web page that set the cookie. This may be blank if you want to retrieve the cookie from any directory or page.<br />
+                
+                Secure − If this field contains the word "secure", then the cookie may only be retrieved with a secure server. If this field is blank, no such restriction exists.
+                <br />
+                Name=Value − Cookies are set and retrieved in the form of key-value pairs<br />
+        </p><br />
+
+        <form name = "myform" action = "">
+                Enter name: <input type = "text" name = "customer"/>
+                <input type = "button" value = "Set Cookie" onclick = "WriteCookie();"/>
+        </form>  
+        
+
+        <form name = "myform" action = "">
+                <p> click the following button and see the result:</p>
+                <input type = "button" value = "Get Cookie" onclick = "ReadCookie()"/>
+             </form>  
+    </body>
+</html>
