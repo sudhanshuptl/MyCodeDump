@@ -1,0 +1,18 @@
+<html>
+<body>
+    <script type="text/javascript">
+            var pattern = new RegExp("[0-9]{10}", "i");
+            var dummy_msg = "This is my phone number 9532592455 and my work number is 9532592456";
+            var result = pattern.exec(dummy_msg)
+            if (result == null){
+                document.write("Phone number not found <br />")
+            }
+            else{
+                document.write("Serach result : " + result)+'<br/>';
+            }
+            // seach all match found
+            document.write('<br > it return a list of all occurenece : '+ dummy_msg.match(/[0-9]{10}/g))
+
+    </script>
+</body>
+</html>
