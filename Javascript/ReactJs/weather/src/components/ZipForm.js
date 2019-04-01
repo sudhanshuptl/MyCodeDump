@@ -1,5 +1,6 @@
 import React from 'react';
 
+//classname must be same as filename
 class ZipForm extends React.Component{
     render(){
         return <div className='zip-form'>
