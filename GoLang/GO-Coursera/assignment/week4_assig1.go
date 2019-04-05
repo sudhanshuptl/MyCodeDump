@@ -7,27 +7,27 @@ import (
 	"os"
 )
 
-type Person struct {
-	Name    string `json:"name"`
-	Address string `json:"address"`
-}
-
 func main() {
-	var person Person
+	userData := make(map[string]string)
 
-	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter the Name : ")
-	name, _ := reader.ReadString('\n')
+	fmt.Printf("Input name: ")
 
-	person.Name = name[:len(name)-1]
+	scanner := bufio.NewScanner(os.Stdin)
 
-	fmt.Print("Enter the Address : ")
-	address, _ := reader.ReadString('\n')
+	if scanner.Scan() {
+		userData["name"] = scanner.Text()
+	}
 
-	person.Address = address[:len(address)-1]
+	fmt.Printf("Input address: ")
 
-	jn, _ := json.MarshalIndent(person, "", "    ")
+	if scanner.Scan() {
+		userData["address"] = scanner.Text()
+	}
 
-	fmt.Println(string(jn))
+	byte_array, err := json.Marshal(userData)
+	if err != nil {
+		fmt.Println("error:", err)
+	}
 
+	os.Stdout.Write(byte_array)
 }
