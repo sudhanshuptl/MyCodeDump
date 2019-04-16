@@ -1,4 +1,4 @@
-package main
+package Introduction_to_go
 
 /*Write a program which reads information from a file and represents it
 in a slice of structs. Assume that there is a text file which contains
