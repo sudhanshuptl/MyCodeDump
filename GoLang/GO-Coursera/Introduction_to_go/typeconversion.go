@@ -1,4 +1,4 @@
-package main
+package Introduction_to_go
 
 import "fmt"
 
