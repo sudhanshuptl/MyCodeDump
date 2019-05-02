@@ -39,7 +39,7 @@ func (me *Animal) Instruct(command string) string {
 	case "speak":
 		return me.Speak()
 	default:
-		return fmt.Sprintf("This animal does not understand: %s", command)
+		return fmt.Sprintf("This animal_type does not understand: %s", command)
 	}
 }
 
@@ -64,7 +64,7 @@ func main() {
 	for {
 		command := strings.Fields(readText("> "))
 		if len(command) != 2 {
-			fmt.Println("Please enter: <animal> <command>")
+			fmt.Println("Please enter: <animal_type> <command>")
 			continue
 		}
 
@@ -73,7 +73,7 @@ func main() {
 
 		fmt.Println(command)
 		if animal == nil {
-			fmt.Printf("There is no animal %s.\n", name)
+			fmt.Printf("There is no animal_type %s.\n", name)
 		} else {
 			fmt.Printf("%s\n", animal.Instruct(command[1]))
 		}

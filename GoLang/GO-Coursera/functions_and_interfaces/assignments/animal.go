@@ -44,13 +44,13 @@ func main() {
 		if val, ok := animals[name]; ok {
 			switch {
 			case info == "food":
-				fmt.Printf("\nanimal = %s , food= %s\n", name, val.Eat())
+				fmt.Printf("\nanimal_type = %s , food= %s\n", name, val.Eat())
 			case info == "locomotion":
-				fmt.Printf("\nanimal = %s , locomotion= %s\n", name, val.Move())
+				fmt.Printf("\nanimal_type = %s , locomotion= %s\n", name, val.Move())
 			case info == "noise":
-				fmt.Printf("\nanimal = %s , noise= %s\n", name, val.Speak())
+				fmt.Printf("\nanimal_type = %s , noise= %s\n", name, val.Speak())
 			default:
-				fmt.Printf("\nanimal = %s , information ask is not available (food, locomotion, noise)\n", name)
+				fmt.Printf("\nanimal_type = %s , information ask is not available (food, locomotion, noise)\n", name)
 			}
 		} else {
 			fmt.Println("Animal interred is not found in database")
