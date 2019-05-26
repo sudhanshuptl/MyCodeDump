@@ -19,6 +19,7 @@ void insertAtPosition(Node **head,int data,int position);
 void deleteFromBeginning(Node **head);
 void deleteFromEnd(Node **head);
 int find_mid_node(Node *head);
+void print_reverse(Node *head);
 
 int main(){
     Node *head = NULL;
@@ -39,6 +40,11 @@ int main(){
 
     printf("\n__Mid data__: : %d\n\n",find_mid_node(head)); // we just have to print mid not modify head
 
+    print(head);
+    printf("_________Link List Traversal Reverse________\n NULL");
+    print_reverse(head);
+    printf(" <- head\n\n\n");
+
     deleteFromBeginning(&head);
     deleteFromBeginning(&head);
     print(head);
@@ -46,19 +52,18 @@ int main(){
     deleteFromEnd(&head);
     deleteFromEnd(&head);
     print(head);
-
 
 
     return 0;
 }
 
 
-Node * createNode(int data){
+Node *createNode(int data){
     Node *node = (Node *) calloc(1,sizeof(Node));
     //check error inn memory allocation
     if(node == NULL){
         printf("Memory Allocation Error\n");
-        return;
+        return NULL;
     }
 
     node->data = data;
@@ -197,4 +202,16 @@ int find_mid_node(Node *head){
       ptr1 = ptr1->next;
     }
   return ptr1->data;
+}
+
+
+void print_reverse(Node *head){
+    Node *ptr = head;
+    if(ptr == NULL){
+        return;
+    }
+    else{
+        print_reverse(ptr->next);
+        printf("<- %d",ptr->data);
+    }
 }
