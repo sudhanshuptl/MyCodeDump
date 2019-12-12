@@ -1,8 +1,9 @@
 package main
 
+// Drivaer function for link list
 import "./LinkLists"
 
-func main(){
+func main() {
 	oneWayList := LinkLists.OneWayLinkList{}
 	//oneWayList.Init() //initialise head with nill
 
@@ -14,8 +15,16 @@ func main(){
 
 	oneWayList.PrintList()
 
-	oneWayList.Append( 4)
+	oneWayList.Append(4)
 	oneWayList.Append(5)
+
+	oneWayList.PrintList()
+
+	oneWayList.InsertAtGivenPosition(8, 8)
+	oneWayList.InsertAtGivenPosition(6, 6)
+	oneWayList.InsertAtGivenPosition(7, 7)
+	oneWayList.InsertAtGivenPosition(1, 0)
+	oneWayList.InsertAtGivenPosition(0, 1)
 
 	oneWayList.PrintList()
 
