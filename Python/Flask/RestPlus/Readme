@@ -1,0 +1,5 @@
+# flask restplus
+It provide better way creating rest api, that comes handy while developing, debugging or upgrading
+
+# Response Marshaling
+ Specifying flask about what you want to return and flask will check that format when return. so work like a assertion.
