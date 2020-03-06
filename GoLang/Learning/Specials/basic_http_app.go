@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"net/http"
 )
 
@@ -14,7 +15,9 @@ func main() {
 		w.Write([]byte(msg)) // convert msg to byte and add into resposewriter
 	})
 
-	http.ListenAndServe(":8080", mux)
+	err := http.ListenAndServe(":8080", mux)
 	//run and open localhost:8080
-
+	if err != nil{
+		log.Fatalf("Server failed to restart %v", err)
+	}
 }
