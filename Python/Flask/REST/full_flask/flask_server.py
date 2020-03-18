@@ -11,6 +11,8 @@ app.config['secret_key'] = 'ThisISSECRET'
 app.config['SQLALCHEMY_DATABASE_URI']=\
     'sqlite://///Users/iopexses/Documents/Github/MyCodeDump/Python/Flask/REST/full_flask/todo.db'
 
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@127.0.0.1/iopex'
+
 # User terminal & open python3
 # from flask_server import db
 # db.create_all() # to create all tables for first time
