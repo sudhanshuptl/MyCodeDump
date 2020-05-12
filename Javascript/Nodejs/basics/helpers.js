@@ -24,11 +24,10 @@ console.log(greeting_all());
 module.exports = {
     sum,
     mult,
-    greeting,
-    greeting_all
+    greeting
 };
 
-
-
+// print all exported modules
+console.log("helper2 all exported modules : ", module.exports)
 
 //export is private to each module

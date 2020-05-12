@@ -1,0 +1,17 @@
+{
+  "name": "basic_1",
+  "version": "1.0.0",
+  "description": "* initilize `npm init` * install package `npm install nodemon` * Update the script in `package.json`. here `app.js` is main file. ```  \"scripts\": {     \"dev\": \"nodemon app.js\"   }, ``` * `npm run dev` to execute in auto refresh mode",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemod": "^2.6.1",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
