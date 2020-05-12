@@ -1,0 +1,14 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "* initilize `npm init` * install package `npm install nodemon`",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Sudhanshu",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
