@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, make_response
-import  jwt
+import jwt
 import datetime
 from functools import wraps
 
@@ -49,7 +49,7 @@ def login():
         # token get expired after given time for now its 2 minute
         token = jwt.encode({"user": auth.username,
                            'exp':datetime.datetime.utcnow()+datetime.timedelta(minutes=2)},app.config['SECRET'])
-        return jsonify({'token': token.decode("UTF-8")})
+        return jsonify({'token': token})
 
     return make_response("Not able to verify",404,{"www-authenticate": "basic login required"})
 
