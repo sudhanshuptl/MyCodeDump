@@ -1,7 +1,7 @@
 # Introduction
 
-We have two cloud function one is to authenticate and generate jwt token
-and other one is to return response after authenticating using that jwt.
+We have two cloud functions one is to authenticate and generate jwt token 
+and the other one is to return a response after authenticating using that jwt.
 
 1. [get_login_token](https://asia-south1-cc-dev-sandbox-20200619.cloudfunctions.net/get_login_token) 
     make a post call with `username` and `password` as Basic Auth to get a jwt token that will be valid for next `20 min`
@@ -16,10 +16,9 @@ and other one is to return response after authenticating using that jwt.
     ```json
     {
         "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoicGFua2FqIiwiZXhwIjoxNjM4ODU4NTUxfQ.xMSOR5PoiwLYv3kAid5ufhkGsNlUn_H1y_jL1_BSozE",
-        "username": "sudhanshu"
     }
     ```
-2. [Get list of Orgnisations](https://asia-south1-cc-dev-sandbox-20200619.cloudfunctions.net/get_quote_summary)
+2. [Get the list of Organisations](https://asia-south1-cc-dev-sandbox-20200619.cloudfunctions.net/get_quote_summary)
     #### Request
       ```commandline
     curl --location --request GET 'https://asia-south1-cc-dev-sandbox-20200619.cloudfunctions.net/get_quote_summary' \ 
@@ -38,8 +37,8 @@ and other one is to return response after authenticating using that jwt.
         ]
     }
     ```
-3. [Get Data for Given Orgnisations](https://asia-south1-cc-dev-sandbox-20200619.cloudfunctions.net/get_quote_summary)
-   Get Data for Organisations mentioned in request. it will return null if no data available for that organisation
+3. [Get Data for Given Organisations](https://asia-south1-cc-dev-sandbox-20200619.cloudfunctions.net/get_quote_summary)
+   Get Data for Organisations mentioned in request. it will return null if no data available for that organization
     #### Request
     ```commandline
     curl --location --request POST 'https://asia-south1-cc-dev-sandbox-20200619.cloudfunctions.net/get_quote_summary' \

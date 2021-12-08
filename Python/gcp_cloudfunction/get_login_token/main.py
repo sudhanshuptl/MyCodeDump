@@ -26,7 +26,7 @@ def get_token(request):
                                 'exp': datetime.datetime.utcnow() + datetime.timedelta(minutes=20)}, SECRET_KEY,
                                algorithm="HS256")
 
-            return jsonify({'username': user, 'token': token})
+            return jsonify({'token': token})
 
         return make_response("basic login required", 404, {"www-authenticate": "basic login required"})
 
