@@ -24,12 +24,12 @@
 
 <script type="application/javascript">
     Dropzone.options.dropper = {
-        paramName: 'file',
+        paramName: 'csv',
         chunking: true,
         forceChunking: true,
-        url: '/upload',
+        url: 'http://localhost:8080/templates/csv-upload',
         maxFilesize: 1025,
-        chunkSize: 1000000
+        chunkSize: 1000000,
     }
 </script>
 

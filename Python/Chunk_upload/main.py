@@ -31,8 +31,8 @@ def index():
 @app.route('/upload/save', methods=['POST'])
 def upload():
     # Route to deal with the uploaded chunks
-    print('_------------->>>>>>')
-    print('_------------->>>>>>', request.form)
+    print('type------------->>>>>>',type(request.form))
+    print('_------------->>>>>>', request.form, )
     print('_------------->>>>>>', request.files)
     print(request.form['dzuuid'])
     print(request.files['file'].filename)
@@ -58,6 +58,8 @@ def upload():
 def upload_redis():
     # Route to deal with the uploaded chunks
     print('_------------->>>>>>')
+    print('type------------->>>>>>',type(request.form))
+
     print('_------------->>>>>>', request.form)
     print('_------------->>>>>>', request.files)
     print(request.form['dzuuid'])
